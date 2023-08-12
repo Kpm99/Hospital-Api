@@ -1,7 +1,7 @@
 //require mongoose
 const mongoose=require('mongoose');
 //connecting database
-mongoose.connect('mongodb://127.0.0.1/project2');
+mongoose.connect('mongodb+srv://KPM111:b2vvNzYEcnzvmZX3@cluster0.rwpsel7.mongodb.net/?retryWrites=true&w=majority');
 
 const db=mongoose.connection;
 //checking error
